@@ -1,4 +1,7 @@
 <script setup lang="ts">
+// 引入 SCSS 文件
+import '@/styles/fonts.scss';
+import '@/styles/base.scss';
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
 onLaunch(() => {
   console.log("App Launch");
@@ -10,4 +13,3 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<style></style>
