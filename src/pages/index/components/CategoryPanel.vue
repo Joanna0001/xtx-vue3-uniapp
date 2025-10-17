@@ -17,7 +17,7 @@ defineProps<{
       :key="item.id"
     >
       <image class="icon" :src="item.icon"></image>
-      <text class="text">{{ item.name }}</text>
+      <view class="text">{{ item.name }}</view>
     </navigator>
   </view>
 </template>
